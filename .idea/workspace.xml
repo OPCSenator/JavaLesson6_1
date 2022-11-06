@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1cf5181-4d94-4e3c-af46-10d7d8882f52" name="Changes" comment="Первая версия">
+    <list default="true" id="d1cf5181-4d94-4e3c-af46-10d7d8882f52" name="Changes" comment="Починил проверки. Напутал с типами данных.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StatsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StatsServiceTest.java" afterDir="false" />
     </list>
@@ -47,22 +46,19 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StatsServiceTest.avarageSalesTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JavaLesson6_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StatsServiceTest.avarageSalesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLesson6_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StatsServiceTest" />
       <option name="METHOD_NAME" value="avarageSalesTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatsServiceTest.countMonthAboveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaLesson6_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StatsServiceTest" />
-      <option name="METHOD_NAME" value="countMonthAboveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.StatsServiceTest.avarageSalesTest" />
         <item itemvalue="JUnit.StatsServiceTest.minSalesTest" />
         <item itemvalue="JUnit.StatsServiceTest.maxSalesTest" />
         <item itemvalue="JUnit.StatsServiceTest.countMonthBelowTest" />
-        <item itemvalue="JUnit.StatsServiceTest.countMonthAboveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667753229492</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Починил проверки. Напутал с типами данных.">
+      <created>1667755994033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667755994033</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,21 +143,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Первая версия" />
-    <option name="LAST_COMMIT_MESSAGE" value="Первая версия" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/StatsServiceTest.java</url>
-          <line>49</line>
-          <properties class="StatsServiceTest" method="countMonthBelowTest">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Починил проверки. Напутал с типами данных." />
+    <option name="LAST_COMMIT_MESSAGE" value="Починил проверки. Напутал с типами данных." />
   </component>
 </project>

@@ -30,7 +30,7 @@ public class StatsService {
                 minMonthReal = i;
             }
         }
-        return minMonthReal +1;
+        return minMonthReal + 1;
     }
 
     static public int maxSales(double[] sales) {
@@ -42,7 +42,7 @@ public class StatsService {
                 maxMonthReal = i;
             }
         }
-        return maxMonthReal +1;
+        return maxMonthReal + 1;
     }
 
     static public int countMonthBelow(double[] sales) {
