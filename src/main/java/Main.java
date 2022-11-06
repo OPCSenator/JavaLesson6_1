@@ -3,11 +3,11 @@ import ru.netology.stats.StatsService;
 public class Main {
     public static void main(String[] args) {
 
-        long [] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
+        double [] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
 
-        long mySumSales = StatsService.sumSales(sales);
-        long myAvarageSales = StatsService.avarageSales(sales);
+        double mySumSales = StatsService.sumSales(sales);
+        double myAvarageSales = StatsService.avarageSales(sales);
         int myMinMonth = StatsService.minSales(sales);
         int myMaxMonth = StatsService.maxSales(sales);
         int myCountMonthBelow = StatsService.countMonthBelow(sales);
